@@ -1,2 +1,12 @@
+numpy
 opencv-python
+tqdm
 Pillow
+torch
+torchvision
+#rembg
+wandb
+segmentation-models
+keras
+tensorflow
+glob
