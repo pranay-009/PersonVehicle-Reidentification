@@ -17,7 +17,7 @@ from segmentation_models.metrics import iou_score,f1_score,precision,recall
 LEARNING_RATE = 1e-4
 EPOCHS=10
 metrics=[iou_score,f1_score,precision,recall,'accuracy']
-class_weights=[0.3,0.7]
+class_weights=[0.1,0.9]
 model=get_model(num_classes=2)
 
 weighted_loss = WeightedCategoricalCrossentropy(class_weights)
