@@ -1,12 +1,13 @@
 numpy
+python-dotenv==1.0.0
 opencv-python
 tqdm
 Pillow
 torch
 torchvision
-#rembg
+streamlit
 wandb
 segmentation-models
 keras
 tensorflow
-glob
+
