@@ -27,7 +27,7 @@ The repository contains the work regarding Person and Vehicle Reidentification u
   # move to PersonVehicle-Reidentification directory
   pip install -r requirements.txt
   ```
-  **Using  Docker(Recomended)**
+- **Using  Docker(Recomended)**
   ```
   # move to the working directory
   cd PersonVehicle-Reidentification
