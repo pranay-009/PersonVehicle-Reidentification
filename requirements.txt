@@ -1,13 +1,15 @@
 numpy
 python-dotenv==1.0.0
+matplotlib
 opencv-python
 tqdm
 Pillow
-torch
 torchvision
+torch
 streamlit
 wandb
 segmentation-models
 keras
 tensorflow
-
+regex 
+image-similarity-measures

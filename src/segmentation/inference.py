@@ -1,8 +1,7 @@
-import os
 import numpy as np
 import matplotlib.pyplot as plt
-from segmentation.dataloader.datagen import DataGenerator
-from segmentation.model.architecture import get_model
+from .dataloader.datagen import DataGenerator
+from .model.architecture import get_model
 
 
 
@@ -10,7 +9,7 @@ IMG_SIZE=(256,256,3)
 
 class Inference(DataGenerator):
     
-    def __init__(self,model_path,output_path,model=None):
+    def __init__(self,model_path,output_path=None,model=None):
         #Datagenerator as parent class
         super().__init__()
         self.model_path=model_path
